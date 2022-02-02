@@ -9,9 +9,6 @@ func main() {
 
 	root := newTree()
 	for true {
-		defer func(option, key int) {
-
-		}(option, key)
 		fmt.Println("What would you like to do?")
 		fmt.Println("--------------------------")
 		fmt.Println("1. Insert")
